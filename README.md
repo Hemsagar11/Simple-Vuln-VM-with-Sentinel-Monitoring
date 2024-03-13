@@ -4,6 +4,9 @@ Using Azure Sentinel to visualize the geolocation of the RDP brute force attacks
 
 ### Tools used:
 
-- **Microsoft Azure Sentinel** -> To injest the log file, aggregate data and display it on a world map.
+- **Microsoft Azure Sentinel** -> Aggregate data and display it on a world map.
 - **Windows Virtual Machine** -> A completely exposed VM that can be connected via RDP protocol.
-- **Log Analytics Workspace** -> View the logs recorded from the VM.
+- **Log Analytics Workspace** -> View and injest logs from the associated VM.
+- **PowerShell** -> Creating a custom script to access the log files and get geolocation data using API.
+
+
